@@ -1,0 +1,143 @@
+body{
+    background-color: antiquewhite;
+}
+
+.logo{
+    
+    font: 1rem Recoleta;
+    background-color: white;
+}
+
+.top {
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+
+.agadi {
+    display: inline-block;
+
+}
+
+.top .namaste {
+    margin-left: 100px;
+    margin-top: 200px;
+    text-align: left;
+
+    font: 4rem Recoleta;
+
+
+
+}
+
+
+.top .secondline {
+
+    margin-left: 100px;
+    margin-top: 0px;
+    text-align: left;
+    font-weight: lighter;
+    font: 1.5rem Now Alt;
+
+
+}
+
+.top .button1 {
+
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: left;
+    background-color: black;
+    color: aliceblue;
+    padding: 8px 8px 8px 8px;
+    border-radius: 8px;
+    border-color: black;
+    font: 0.8rem Now Alt;
+
+
+
+
+}
+
+
+
+.mid{
+    margin-top: -200px;
+}
+.myblog{
+    margin-top: 10%;
+    font-weight: lighter;
+    font: 1.75rem Recoleta;
+    max-width: 100%;
+}
+
+
+.blogfirst{
+}
+.firstblog .firstimage {
+    display: flex;
+
+    order: 1;
+    width: 400px;
+    height: 500px;
+    /* border: 5px solid gray; */
+}
+
+
+.firstblog .firsttext {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    width: 890px;
+    height: 500px;
+    /* background-color: rgb(203, 215, 219); */
+    border: 1px solid gray;
+
+}
+
+.topic {
+    margin-top: 80px;
+    margin-left: 30px;
+    font: 3rem Recoleta;
+}
+
+
+.date {
+    font: 0.7rem Recoleta;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.para {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 95px;
+    font: 1rem Now Alt;
+    text-align: justify;
+}
+.review{
+    margin-bottom: ;
+}
+
+.rotated {
+    margin-left: -10px;
+    margin-right: -10px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+
+.contact{
+    font: 1.75rem Recoleta;
+}
+
+.lowertext{
+    background-color: black;
+    color: white;
+    font: var(--fontrec);
+    font-size: 0.9rem;
+    font-weight: lighter;
+   
+      
+}

@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jo-Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrapfirst.css">
+</head>
+
+<body>
+    <div class="alert alert-warning alert-dismissible fade show bg-alert" role="alert">
+
+        <div class="position-relative">
+            <div class="position-absolute top-0 start-50 translate-middle"> <strong>Festive Discount:</strong> We are
+                offering <strong>50% off</strong> to
+                put your advertisements
+            </div>
+            <!-- <div class="position-absolute top-0 end-0">
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div> -->
+        </div>
+    </div>
+    <nav class="navbar sticky-top bg-light shadow p-3 mb-5 bg-body rounded">
+        <div class="container">
+
+            <a class="navbar-brand logo" href="#">
+                <h1>Jo-Blog</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown" id="mid">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#midd">College</a></li>
+                            <li><a class="dropdown-item" href="#room">Theatre</a></li>
+
+                            <li><a class="dropdown-item" href="#">Nepacrafts<span class="badge bg-info">New</span></a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#callme">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Enjoy</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+
+
+    </nav>
+
+
+
+
+    <div class="review fixed-bottom mb-5"><button class="btn btn-success" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling"><div class="rotated mt-3 mb-3">Reviews <br> Click</div></button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><strong>Reviews</strong></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="card">
+                    <div class="card-header">
+                        My Baby
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>I like the creator of this blog page.</p>
+                            <footer class="blockquote-footer">Sauravi Rajbhandari <cite title="Source Title">5/5</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Calm and Solitude
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>This Blog brings calmness in me.</p>
+                            <footer class="blockquote-footer">Reezu Dhunga <cite title="Source Title">4.5/5</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Lamotang
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>Bro lets go langtang</p>
+                            <footer class="blockquote-footer">Bishal Magar <cite title="Source Title">3/5</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Sau Rishaula
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>Ma pahila sau lai vanchu</p>
+                            <footer class="blockquote-footer">Deshna Thapa Magar <cite title="Source Title">Sau/5</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col-6 top">
+                <div class="agadi" id="home">
+                    <div class="namaste">NAMASTE.</div>
+
+                    <div class="secondline">read, imagine and relax</div>
+
+                    <div class="thirdline"><button class="button1">Learn More</button></div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <img src="galsize.png" class="img-fluid float-end" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="mid " id="midd">
+        <div class="position-relative ">
+            <div class="text-center bg-light">
+
+                <div class="myblog p-5">
+                    My blogs
+                    <div class="blogfirst row border mt-5">
+                        <div class="col-md-4 border ">
+                            <img src="openday.png" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col">
+                            <div class="topic text-start text-md-start text-sm-start">Open Day 2022</div>
+                            <div class="date text-start text-md-start text-sm-start">5th September, 2022</div>
+
+                            <div class="para text-start-start text-md-start text-sm-start">The diverse list of
+                                performances, interactive games, college tours, admission
+                                counseling, music, dance and art, Open Day at Thames International College is scheduled
+                                on
+                                September 2, 2022. Thames offers opportunities for learning beyond the regular
+                                classroom,
+                                which has definitely shaped my learning experience as an athlete in a way I never
+                                expected.
+                                Initially I had difficulties balancing my athletic career and studies but the unique
+                                learning environment of college guided me to take forward both aspects hand in hand. One
+                                of
+                                the main highlights of my college life was being able to form a women's basketball team
+                                and
+                                winning several tournaments. If you want an environment where you can grow exponentially
+                                in
+                                various aspects of your life then Thames is totally worth your consideration. </div>
+                        </div>
+                    </div>
+
+                    <div class="blogfirst row border mt-5" id="room">
+                        <div class="col-md-4 border ">
+                            <img src="kothano.7.png" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col">
+                            <div class="topic text-start text-md-start text-sm-start">Kotha No.7</div>
+                            <div class="date text-start text-md-start text-sm-start">13th September, 2022</div>
+
+                            <div class="para text-start text-md-start text-sm-start">It’s ironic how the poster is white
+                                but the play shows numerous layers of
+                                darkness
+
+                                we officially welcome all of you to कोठा न. ७ where the longer you stare into the dark,
+                                you’ll start hearing voices that aren’t really yours.
+
+                                Commencing from the 16th of September, join us into the abyss and watch the monsters
+                                sing
+                                you lullabies to sleep.
+
+                                Get the tickets as soon as you can or miss out on the fun. The forms are in our bio.
+                                It's
+                                finally here!!
+                                We are proud to show you our final poster for कोठा न. ७!
+
+                                Today will be the last day you get to see our mysterious कोठा on stage. You don't want
+                                to
+                                miss this. Catch the final show at 1 p.m. today.
+
+                                Door sales are available. Be no later than 12:50!</div>
+                        </div>
+                    </div>
+                    <div class="blogfirst row border mt-5">
+                        <div class="col-md-4 border ">
+                            <img src="tuborg.png" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col">
+                            <div class="topic text-start text-md-start text-sm-start">Chiso Beer</div>
+                            <div class="date text-start text-md-start text-sm-start">19th September, 2022</div>
+
+                            <div class="para text-start-start text-md-start text-sm-start">Launched in Nepal in 1990,
+                                Tuborg is today the largest selling and most preferred brand in Nepal. Tuborg unveiled
+                                the innovative Pull-Off Cap for the first time in Nepal in 2014. Tuborg has always had a
+                                strong association with music and has been involved with various musical events over the
+                                years with the essence of Open for Fun. Tuborg is available in 650ml bottles and 500ml
+                                cans. </div>
+                        </div>
+                    </div>
+
+                    <div class="blogfirst row border mt-5">
+                        <div class="col-md-4 border ">
+                            <img src="halfkti.png" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col">
+                            <div class="topic text-start text-md-start text-sm-start">Mann ko Pari</div>
+                            <div class="date text-start text-md-start text-sm-start">21st September, 2022</div>
+
+                            <div class="para text-start-center text-md-start text-sm-center">To understand why
+                                butterflies are often associated with death, you need to
+                                know the basics of their developmental process. A butterfly hatches from an egg and
+                                grows
+                                into a caterpillar. As a caterpillar, it goes into a chrysalis and undergoes a
+                                transformative process. It emerges from its chrysalis as a beautiful winged butterfly.
+
+                                Many cultures look at this process with deeper meaning and compare a human’s spiritual
+                                life
+                                with this transformation. To many, the butterfly symbolizes renewal, hope, endurance,
+                                resurrection, and the transformation into a better being.</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Topics starts -->
+
+
+    </div>
+    <div class="ads container-fluid"><div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="ads3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="ads2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="ad1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div></div>
+    <div class="contacts container mt-3">
+        <div class="card text-center">
+            <div class="card-header contact" id="callme">
+              Contact Me
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">I like it when you guys tell me hello!</h5>
+              <div class="form">
+                
+                <label>Name:</label> <input type="text" class="formcontent mt-3"><br>
+                <label>Email:</label><input type="email" class="emailss mt-3"><br>
+                <label>Message:</label><input type="text" class="formcontentmsg mt-3"><br>
+                <input class="submit mt-3" type="Submit" value="Submit">
+            </div>
+            </div>
+            <div class="card-footer text-muted">
+              Thank You
+            </div>
+          </div>
+    </div>
+
+    <footer class="">
+        <div class="lowertext container-fluid">Copyright to Joyesh Shrestha @2022</div>
+    </footer>
+</body>
+
+</html>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
